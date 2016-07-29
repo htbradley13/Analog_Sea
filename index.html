@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<title>AnalogSea Signup Form Project</title>
+	<meta charset="utf-8">
+	<meta name="Description" content="AnalogSea Signup Account Creation Form">
+	<meta name="keywords" content="HTML">
+	<!-- Font Awesome Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"> 
+	<!-- Google Font CSS Reference -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+	<!-- My Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>	
+	<Header class="logo">
+		<img class="Analog-Sea-Logo" src="AnalogSeaLogo.png" alt="Analog Sea Logo">
+	</header>
+	<div class="white-box">
+		<form class="Sign-up-page" action="/signup/" method="post">
+			<h1 class="Sign-up">Sign up</h1>
+
+			<label for="Email">Email</label>
+        	<input placeholder=foo@bar.com type="text" name="Email" id="Email" required />
+
+    		<label for="Password">Password</label>
+        	<input placeholder=1234passw0rd type="text" name="Password" id="Password" required />
+
+        	<button type='submit'>Sign up</button>
+
+        	<a href="/forgot-password/new" class="forgot-password"><h4>Forgot password?</h4></a>
+		</form>
+	</div>
+	<div class="Already">
+		<h3>Already have an account? <a href="/login" class="log-in">Log in</a></h3>
+	</div>
+</body>
+</html>
